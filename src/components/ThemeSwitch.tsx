@@ -5,7 +5,7 @@ export const ThemeSwitch = () => {
 
     return (
         <button
-            onClick={() => setTheme(theme === "ligth" ? "dark" : "ligth")}
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
             className="btn btn-accent">
                 Cambiar Modo
         </button>

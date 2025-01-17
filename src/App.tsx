@@ -1,4 +1,5 @@
 import { SearchPokemon } from "./components/SearchPokemon";
+import { ThemeSwitch } from "./components/ThemeSwitch";
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
       Pokedex App
     </h1>
     <SearchPokemon>
-      
     </SearchPokemon>
+      <ThemeSwitch/>
   </div>
   );
 }
